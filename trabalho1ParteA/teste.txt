@@ -1,0 +1,35 @@
+Nao pode utilisar puts printf fwrite putc fputc fputs fprintf sprintf fseek
+podemos usar /*fopen*/ scanf /*fread*/ lseek == fseek open write close creat system calls 
+flags para OCREAT WRONLY RDONLY APPENDONLY SWU SWG SWO
+
+
+size of caracter == sizeof byte
+
+Ex 0 
+stop em grupo.
+
+Ex 1 Manuel
++ n: avançar n bytes. 
+
+Ex 2 Joel
+- n: recuar n bytes. 
+
+void(int * endereçoDoFile, int numeroDeBytesARecuar){//Ver erros exceções lseek( int ficheiro
+,int numeroDeBytesDeByesARecuar (valor negativo),SEEK_CUR)
+}
+
+Ex 3 Tiago
+i n: avançar n bytes inicio do ficheiro .
+
+Ex 4 Tiago
+f n: recuar n bits do fim do ficheiro (Investigar se começa no ultimo caracter ou no EOF).
+
+Ex 5 Joel
+l 0: limpar o buffer memset(0, buffer(array de chars)) '\0' == 0 in ASCCI. //adaptavel
+void(* bufferDeCaraccteres)
+{
+memset
+}
+
+Ex 6 Manuel
+r n: read/ ler n bytes e apender a um buffer  na read ler caracter a caracter . 

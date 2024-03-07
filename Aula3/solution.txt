@@ -1,0 +1,28 @@
+1-Guarda o conteúdo do ficheiro etc/passwd no
+  passwdcpy portanto cria uma cópia.
+2-Pelo stderr é imprimido o tempo que o programa demora a executar
+   pode-se usar a função perror para ir buscar o último número de erro 
+   assinalado pelo sistema.
+3-16 Mbits
+Tamanho do bloco Tempo do CPU Low level Tempo do CPU High level     
+4096             0.072134               Tempo 0.000011
+1024             0.025887
+256              0.071926
+64               0.252117
+16               0.890939
+4                3.576723
+
+Cópia feita com BlockSize 4096 Tempo do CPU 0.072134 Success
+Cópia feita com BlockSize 1024 Tempo do CPU 0.025887 Success
+Cópia feita com BlockSize 256 Tempo do CPU 0.071926 Success
+Cópia feita com BlockSize 64 Tempo do CPU 0.252117 Success
+Cópia feita com BlockSize 16 Tempo do CPU 0.890939 Success
+Cópia feita com BlockSize 4 Tempo do CPU 3.576723 Success
+----------
+O ficheiro demora proporcionalmente mais tempo a executar quanto menor for 
+o tamanho de bloco utilizado quanto mais bits melhor o highlevel demora 
+muito mais talvez devido a boa programação por parte dos construtores 
+das bibliotecas C
+4- A função time demorou demorou mais que a função sohighlevel talvez 
+porque estava a calcular o tempo dessa função não podendo assim de maneira
+alguma ser menor 

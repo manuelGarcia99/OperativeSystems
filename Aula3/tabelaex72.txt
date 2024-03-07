@@ -1,0 +1,16 @@
+16 Mbits
+Tamanho do bloco Tempo do CPU Low level Tempo do CPU High level     
+4096             0.072134               Tempo 0.000011
+1024             0.025887
+256              0.071926
+64               0.252117
+16               0.890939
+4                3.576723
+
+Cópia feita com BlockSize 4096 Tempo do CPU 0.072134 Success
+Cópia feita com BlockSize 1024 Tempo do CPU 0.025887 Success
+Cópia feita com BlockSize 256 Tempo do CPU 0.071926 Success
+Cópia feita com BlockSize 64 Tempo do CPU 0.252117 Success
+Cópia feita com BlockSize 16 Tempo do CPU 0.890939 Success
+Cópia feita com BlockSize 4 Tempo do CPU 3.576723 Success
+
